@@ -1,5 +1,5 @@
 {% set name = "mpltoolbox" %}
-{% set version = "0.0.8" %}
+{% set version = "0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mpltoolbox-{{ version }}.tar.gz
-  sha256: a7122c925679162cdca7bef115b04caa7501f1d6dc5d95c4ed52f3a446d09876
+  sha256: 487dcf61b0767d6fff3e3c68eab6fcb2a2f5fcb1317554b8696135918216d044
 
 build:
   noarch: python
