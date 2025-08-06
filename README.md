@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@conda-forge/scipp](https://github.com/orgs/conda-forge/teams/scipp/)
 * [@nvaytet](https://github.com/nvaytet/)
 
