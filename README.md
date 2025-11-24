@@ -3,11 +3,13 @@ About mpltoolbox-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mpltoolbox-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/mpltoolbox/mpltoolbox
+Home: https://scipp.github.io/mpltoolbox/
 
 Package license: BSD-3-Clause
 
 Summary: Interactive tools for matplotlib
+
+Development: https://github.com/mpltoolbox/mpltoolbox
 
 Current build status
 ====================
