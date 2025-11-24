@@ -20,9 +20,10 @@ build:
 
 requirements:
   host:
-    - python 3.11.*
+    - python ${{ python_min }}.*
     - pip
-    - setuptools
+    - setuptools >=77
+    - setuptools-scm >=8.0
   run:
     - python >=${{ python_min }}
     - matplotlib-base
