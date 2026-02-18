@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mpltoolbox
-  version: "25.10.0"
+  version: "26.2.0"
   python_min: "3.11"
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/mpltoolbox-${{ version }}.tar.gz
-  sha256: 08ae7f15ec88ede8bfe25d21533c41c7012bc0d6993f72f34ddfae89bfd6ebef
+  sha256: b8a600b35f1efe67a9ae4004cf75e15a33a2c281b12dbb55d155191f834aac1f
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
